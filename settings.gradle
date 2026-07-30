@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        maven {
+            url = uri("https://mvnrepository.com/open-source/gradle-plugins")
+        }
+    }
+}
+rootProject.name = 'jx'
