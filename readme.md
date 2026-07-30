@@ -40,9 +40,8 @@ Negative test
 http://localhost:8081/api/companies/9
 ```
 {
-    "id":null,
-    "name":null,
-    "description":"Range outside of allowed values"
+ "error":"Not Found",
+ "error_description":"Company ID 6 is out of range"
 }
 ```
 
